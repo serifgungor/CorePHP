@@ -24,6 +24,8 @@ php_researchs_serifgungor
 - PHP-raffle-master.zip
 - view_all.zip
 - xsl-stylesheets.zip (No including php)
+- show_all_images.php
+- random_font_and_color.php
 
 
 php_basics_guray folder (guraysuerdem's corePHP examples)
