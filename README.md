@@ -2,6 +2,7 @@
 My full repository for Open Source helper projects. For the fastly lookup !
 
 php_researchs_serifgungor
+- googlePlay_appdetail.php
 - ajax_response_php_ornegi1.zip
 - chatting.zip
 - css_notifications.zip (No including php)
