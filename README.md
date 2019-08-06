@@ -2,6 +2,7 @@
 My full repository for Open Source helper projects. For the fastly lookup !
 
 php_researchs_serifgungor
+- ams.zip (system)
 - googlePlay_appdetail.php
 - iyzipay-php-2.0.25.zip
 - lightbox2-master.zip
