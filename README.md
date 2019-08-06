@@ -5,6 +5,7 @@ php_researchs_serifgungor
 - googlePlay_appdetail.php
 - iyzipay-php-2.0.25.zip
 - lightbox2-master.zip
+- guvenlik-kodu.rar (php-gd)
 - ajax_response_php_ornegi1.zip
 - chatting.zip
 - css_notifications.zip (No including php)
