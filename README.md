@@ -2,6 +2,7 @@
 My full repository for Open Source helper projects. For the fastly lookup !
 
 php_researchs_serifgungor
+- lightGallery.zip (no including php)
 - jspdf-html.rar
 - ams.zip (system)
 - googlePlay_appdetail.php
