@@ -1,0 +1,25 @@
+function getAlexaRank($domain){
+	// get data
+	$alexa = simplexml_load_file('http://data.alexa.com/data?cli=10&url='.$domain);
+	// global rank
+	$globalRank = number_format( (int) $alexa->SD->POPULARITY['TEXT'] );
+	// country rank
+	$countryCode = $alexa->SD->COUNTRY['CODE'];
+	$countryName = $alexa->SD->COUNTRY['NAME'];
+	$countryRank = number_format( (int) $alexa->SD->COUNTRY['RANK'] );
+	echo "Global: ".$globalRank.' '.$countryRank."(".$countryName.")";
+}
+
+function getGoogleCount($domain) {
+    $content = file_get_contents('http://ajax.googleapis.com/ajax/services/' .
+        'search/web?v=1.0&filter=0&q=site:' . urlencode($domain));
+    $data = json_decode($content);
+    $result = intval($data->responseData->cursor->estimatedResultCount);
+
+    if ($result > 1000) {
+      $result = floor($result / 1000) . 'K';
+    }
+    return $result;
+}
+
+echo getGoogleCount('http://serifgungor.com');
